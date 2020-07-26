@@ -3,7 +3,8 @@ const path =require("path")
 
 module.exports = {
     devServer: {
-        port : 8899
+        port : 8899,
+        historyApiFallback: true
     },
     devtool: "source-map",
     entry: {
@@ -46,6 +47,6 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: './src/index.html',
       filename: './index.html',
-    }),
-  ],
+    })
+  ]
 };
