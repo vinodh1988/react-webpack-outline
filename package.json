@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.10.5",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "babel-polyfill": "^6.26.0",
